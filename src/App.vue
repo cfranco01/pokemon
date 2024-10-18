@@ -19,19 +19,19 @@ import { RouterLink, RouterView } from 'vue-router'
       <div>
         <router-link 
           active-class="active"
-          class="btn btn-outline-primary me-2" 
+          class="btn btn-outline-secondary me-2" 
           to="/"
           >Home</router-link
         >
         <router-link
           active-class="active" 
-          class="btn btn-outline-primary me-2" 
+          class="btn btn-outline-secondary me-2" 
           to="/pokemons"
           >Pokemons</router-link
         >
         <router-link
           active-class="active" 
-          class="btn btn-outline-primary" 
+          class="btn btn-outline-secondary" 
           to="/favoritos"
           >Favoritos</router-link
         >

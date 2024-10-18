@@ -12,7 +12,7 @@ getData("https://pokeapi.co/api/v2/pokemon");
     <h1>Pokemons</h1>
     <p v-if="loading">Cargando información...</p>
     <div class="alert alert-danger mt-2" v-if="error">{{ error }}</div>
-    <div v-if="data">
+    <div v-if="data" class="tabla">
         <ul class="list-group">
             <li v-for="poke in data.results" class="list-group-item" :key="poke">
                 <router-link :to="`/pokemons/${poke.name}`">
@@ -38,3 +38,4 @@ getData("https://pokeapi.co/api/v2/pokemon");
         </div>
     </div>
 </template>
+
