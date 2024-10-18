@@ -15,6 +15,7 @@ const back = () => {
     router.push("/pokemons");
 };
 
+
 getData(`https://pokeapi.co/api/v2/pokemon/${route.params.name}`);
 </script>
 
